@@ -1,0 +1,789 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    color:black;
+    min-height: 100vh;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imgcont img{
+    width: 200px;
+}
+/* 
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 0 0 0;
+}
+p{
+    margin: 0px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right:15px;
+    color:black;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navitem{
+    font-weight: 800;
+    font-size: 1.1em;
+    text-decoration:solid;
+    text-decoration: underline; /* Add underline */
+    /* text-decoration-thickness:2px ;
+    text-decoration-color: black; /* Set underline color to white */
+    /* text-underline-offset: 7px;
+}  */
+/* .item a:hover{
+    border: 0px solid ;
+}
+.redi{
+    background-color: #111827;
+    box-shadow: 0 0 20px 0 #2e4169;
+    border-radius: 7px;
+    padding: 3px;
+}
+.item{
+    display: flex;
+}
+.hero{
+    display:flex;
+    padding:3% 0% 0% 0%;
+}
+.heroright{
+    width: 50%;
+    /* padding-top: 3%; */
+/*    padding-top: 5%;
+}
+.heroleft{
+    width: 50%;
+    padding:5% 0% 8% 0%;
+}
+.imgcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:30% 70% 70% 30% / 35% 46% 54% 65% ;
+    background: linear-gradient(45deg,#3d01f0, #FF007F);
+    background-size:200% 200%;
+    animation: gradient-animation 10s ease infinite;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius:30% 70% 70% 30% / 35% 46% 54% 65% ;
+}
+.info{
+    padding: 10% 0% 5% 0%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.links a{
+    width: 120px;
+    background-color: black;
+    color: white;
+    border:1px solid black;
+    border-radius: 25px;
+    padding: 2% 2% 3% 2%;
+    margin-bottom: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.over{
+    background-color: unset;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+}
+.icons a{
+    background-color:#e9e9e9;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    border-radius: 8px;
+}
+.tech{
+    padding: 5% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.techitem{
+    padding: 10px;
+    width: 70px;
+    background-color: #e9e9e9;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ricon{
+    width: 60%;
+    height: 60%;
+}
+.break{
+    width: 100%;
+    height: 2px;
+    background-color: #e9e9e9;
+    margin-top: 10%;
+}
+.project{
+    margin-top:5%
+}
+.phead{
+    display: flex;
+    margin: 4%;
+}
+.pleft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items:space-between;
+}
+.pimgcont{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    border-radius:20px;
+    background-color: #e9e9e9;
+    border:1px solid #d1d1d1 ;
+}
+.pimg{
+    width: 100%;
+    height: 100%; 
+}
+.pbton{
+    padding: 8% 0 0 0 ;
+    display:flex;
+    gap: 20px;
+}
+.pbton a{
+    width: 180px;
+    padding:2%;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border:1px solid ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.probton{
+    background-color: unset;
+    color: black;
+}
+div a:hover{
+    background-color: unset;
+    color: black;
+    border: 1px solid black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    flex-direction: column;
+}
+.footer p{
+    margin-bottom: 5px;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:2% 8% 0 8%;
+}
+.aboutme p{
+    text-align: center;
+}
+.abtbton{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+}
+.abtbton:hover{
+    background-color: black;
+    color: white;
+}
+.techright{
+    display: flex;
+    gap: 15px;
+}
+.techleft{
+    display: flex;
+    gap:15px;
+}
+
+@media screen and (max-width:600px) {
+    
+} */  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* all */
+
+.break{
+    display: flex;
+    justify-content: center;
+}
+.break div{
+    height: 2px;
+    width: 90%;
+    background-color: #e9e9e9;
+    box-shadow: 0 0 20px 0 #d1d1d1;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar div p{
+    padding: 8px;
+    margin-left: 20px;
+    font-weight: 800;
+}
+.item{
+    display: flex;
+    margin-right:2%;
+    gap: 20px;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    width: 100%;
+    list-style: none;
+}
+.navitem{
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+
+/* hero */
+
+.hero{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    /* background-color: blue; */
+}
+.heroright{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.heroleft{
+    padding: 0% 0% 0% 0%;
+    margin-right: 10%;
+    width: 50%;
+}
+.imgcont{
+    display: flex;
+    justify-content: flex-center;
+    align-items: center;
+    border-radius:30% 70% 70% 30% / 35% 46% 54% 65% ;
+    background: linear-gradient(45deg,#3d01f0, #FF007F);
+    background-size:200% 200%;
+    animation: gradient-animation 10s ease infinite;
+    margin: 0 5% 0 5%;
+    height: 100%;
+    margin-left: 100px;
+}
+.imgcont img{
+    width: 400px;
+}
+.info{
+    margin-bottom: 60px;
+}
+.info p{
+    font-weight: 300;
+}
+.info h1{
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+    font-size: 3em;
+}
+.herobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herobtn a{
+    background-color: black;
+    color: white;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    margin: 10px;
+    padding: 3%;
+}
+.herobtn a:hover{
+    background-color: white;
+    color: black;
+}
+.icons{
+    margin-top: 5%;
+    padding: 5%;
+    display: flex;
+    gap: 13px;
+}
+.icons a{
+    background-color:#e9e9e9;
+    border: 1px solid #d1d1d1;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons a:hover{
+    background-color: white;
+    border:1px solid black;
+}
+
+/* techstack */
+
+.tech h1{
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 5%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    height: 250px;
+}
+.techright{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    height: 100%;
+    align-items: center;
+}
+.techleft{
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+    height: 100%;
+    align-items: center;
+}
+.techitem{
+    height: 70px;
+    width: 70px;
+    background-color: #e9e9e9;
+    border: 2px solid #d1d1d1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+}
+.techitem>p{
+    font-size: 0.6em;
+}
+.tech>p{
+    text-align: center;
+    margin: 5%;
+}
+
+/* projects */
+
+.pmain h1{
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.phead{
+    display: flex;
+    margin-bottom: 5%;
+}
+.pright{
+    width: 60%;
+}
+.pleft{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.pimgcont{
+    width: 250px;
+    height: 250px;
+    background-color: #e9e9e9;
+    border: 2px solid #d1d1d1;
+    border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pcontent h1{
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 3%;
+}
+.pcontent p{
+    width: 80%;
+    text-align: justify;
+}
+.pbton{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 20px;
+}
+.pbton a{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1.5%;
+    width: 20%;
+    text-align: center;
+    margin-top: 7%;
+}
+.pbton a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* footer  */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    flex-direction: column;
+}
+.footer p{
+    margin-bottom: 5px;
+}
+
+/* about */
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:2% 8% 0 8%;
+}
+.aboutme h1{
+    margin: 5%;
+    font-weight: 300;
+    font-size: 2.1em;
+}
+.aboutme p{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.abtprofile{
+    display: flex;
+    align-items: center;
+    margin:0;
+    gap: 20px;
+}
+.abtbton{
+    width: 150px;
+    padding: 5%;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+}
+.abtbton:hover{
+    background-color: black;
+    color: white;
+}
+.abtlist{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.abtlist, li{
+    margin: 1.5%;
+}
+.achi{
+    width: 100%;
+}
+.achi li{
+    margin-bottom:2%;
+    text-align: center;
+}
+
+/* form  */
+.formdiv{
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formdiv h1{
+    font-weight: 200;
+    margin-bottom: 5%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.form label{
+    margin-bottom: 2%;
+}
+.form input{
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 10px;
+}
+.form textarea{
+    padding: 2%;
+    border-radius:10px ;
+}
+.form button{
+    padding: 3%;
+    width: 60%;
+    margin: 10% 0 0 20%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.form button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width:600px){
+
+    /* navbar  */
+    .navbar div p{
+        margin-top: 2%;
+        width: 100%;
+        margin-left: 7%;
+        font-weight: 300;
+        font-size: 0.8em;
+    }
+    .navitem{
+        padding-bottom: 2px;
+    }
+
+    /* hero  */
+    .hero{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .heroleft{
+        order: 1;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .heroright{
+        width: 100%;
+    }
+    .imgcont{
+        margin-left:5%;
+    }
+    .imgcont img{
+        width: 300px;
+    }
+    .info h1{
+        font-size: 2.2em;
+    }
+    .herobtn{
+        flex-direction: column;
+    }
+    .herobtn a{
+        padding: 8%;
+        border-radius: 25px;
+    }
+    .icons{
+        margin-bottom: 15%;
+    }
+    /* techstack  */
+    .tech{
+        margin-top: 10%;
+    }
+    .tech h1{
+        font-size: 2.2em;
+        margin-bottom: 10%;
+        margin-top: 20%;
+    }
+    .tech>p{
+        margin-bottom: 20%;
+    }
+    .container{
+        flex-direction:column;
+    }
+    .techleft,.techright{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    /* projects */
+    .pmain h1{
+        margin-bottom: 15%;
+    }
+    .phead{
+        flex-direction: column;
+        margin-bottom: 30%;
+    }
+    .pleft,.pright{
+        width: 100%;
+    }
+    .pimgcont{
+       height: 150px;
+       width: 80%;
+       margin-bottom: 10%;
+    }
+    .pcontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pbton{
+        justify-content: center;
+    }
+    .pbton a{
+        width: 35%;
+        padding: 4%;
+        margin-top: 10%;
+    }
+    .footer{
+        font-size: 0.8em;
+        padding: 15%;
+    }
+    /* about  */
+    .aboutme h1{
+        margin: 18%;
+        /* font-size:1.8em; */
+        text-align: center;
+        width: 100%;
+    }
+    .aboutme p{
+        text-align: justify;
+    }
+    .abtlist li{
+        margin: 5%;
+    }
+    .abtprofile{
+        flex-direction: column;
+    }
+    .achi li{
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    /* form  */
+    .formdiv h1{
+        font-weight: 200;
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+    .form{
+        width: 90%;
+    }
+    .form input{
+        padding: 4%;
+    }
+    .form textarea{
+        padding: 4%;    
+        margin-bottom: 15%;
+    }
+    .form button{
+        padding: 5%;
+        width: 100%;
+        margin: 0;
+    }
+    .form p{
+        margin-bottom: 10%;
+    }
+}
