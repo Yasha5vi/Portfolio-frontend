@@ -12,10 +12,10 @@ function App(props) {
     if(props.page === "About"){
       return <About />;
     }
-    if(props.page === "Contact"){
+    else if(props.page === "Contact"){
       return <Contact />
     }
-    return <>
+    else return <>
     <Hero />
     <Techstack />
     <Project/>
