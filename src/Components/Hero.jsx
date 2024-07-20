@@ -18,7 +18,7 @@ function Hero(){
             animate={{x:0,opacity:1}}
             transition={{duration:0.5,delay:0.1}}
             className="imgcont">
-                <img src="../src/assets/file.png" alt="" />
+                <img src="/file.png" alt="" />
             </motion.div>
         </div>
         <div className="heroright">
@@ -48,7 +48,7 @@ function Hero(){
                 initial={{x:100,opacity:0}}
                 animate={{x:0,opacity:1}}
                 transition={{duration:0.5,delay:0.3}}
-                href="../src/assets/resumeSF.pdf" 
+                href="/resumeSF.pdf" 
                 download="yashasviResume.pdf"
                 >Download CV</motion.a>
                 <motion.a
