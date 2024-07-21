@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function Hero(){
@@ -44,19 +44,13 @@ function Hero(){
             animate={{x:0,opacity:1}}
             transition={{duration:0.5,delay:0.3}}
             className="herobtn">
-                <motion.a 
-                initial={{x:100,opacity:0}}
-                animate={{x:0,opacity:1}}
-                transition={{duration:0.5,delay:0.3}}
+                <a
                 href="/resumeSF.pdf" 
                 download="yashasviResume.pdf"
-                >Download CV</motion.a>
-                <motion.a
-                initial={{x:100,opacity:0}}
-                animate={{x:0,opacity:1}}
-                transition={{duration:0.5,delay:0.4}}
-                href="/contact"
-                >Contact Me</motion.a>
+                >Download CV</a>
+                <NavLink
+                to="/contact"
+                >Contact Me</NavLink>
             </motion.div>
             <div className="icons">
                 <motion.a
